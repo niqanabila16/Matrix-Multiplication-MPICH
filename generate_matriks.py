@@ -1,7 +1,7 @@
 import random
 import csv
 
-def generate_csv(filename, size=1000):
+def generate_csv(filename, size=3000):
     with open(filename, 'w', newline='') as f:
         writer = csv.writer(f)
         for _ in range(size):
