@@ -57,6 +57,6 @@ docker cp file_2.csv    node0:/home/mpiuser/
 echo "Jalankan program MPI…"
 docker exec node0 mpirun --allow-run-as-root \
   --hostfile /home/mpiuser/hostfile \
-  -np 3 \
+  -np 4 \
   -wdir /home/mpiuser \
   ./p13_054

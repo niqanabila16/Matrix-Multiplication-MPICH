@@ -3,7 +3,7 @@
 #include <string.h>
 #include <mpi.h>
 
-#define MAX_SIZE 1000
+#define MAX_SIZE 3000
 
 int *allocate1DMatrix(int rows, int cols) {
     return (int *)malloc(rows * cols * sizeof(int));
